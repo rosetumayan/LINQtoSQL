@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SampleLINQ">
+  <DataContextMoniker Name="/SampleLINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="61e4e112-9ec2-4c89-bedb-6cf54f9a407e" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SampleLINQDataContext/table_Log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44211e2d-66a9-4756-997b-71102fa03974" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfb37abf-18d4-431c-ab4d-492731965e8d" absoluteBounds="0.75, 0.875, 2, 1.5785953776041663">
+      <DataClassMoniker Name="/SampleLINQDataContext/user_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e29d81bc-43c8-4d07-9dde-7cbb68eebd9b" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.66429768880208); (3.5 : 1.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SampleLINQDataContext/user_Table/user_Table_table_Log" />
+      <nodes>
+        <classShapeMoniker Id="cfb37abf-18d4-431c-ab4d-492731965e8d" />
+        <classShapeMoniker Id="61e4e112-9ec2-4c89-bedb-6cf54f9a407e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
